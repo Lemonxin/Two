@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Admin;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Auth extends Model
+{
+    // 定义关联的数据表
+    protected $table = 'authes';
+    //禁用时间字段
+    public $timestamps = false;
+
+}
